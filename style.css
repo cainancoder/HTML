@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(50, 74, 94); 
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.top-img {
+    height: 111px;
+    display: flex;
+    gap: 32px;
+     border-color: rgb(22, 25, 81);
+    border-radius: 70px;
+
+  
+}
+
+.cabecalho-menu-item {
+    font-family: 'Comfortaa', cursive;
+    color: rgb(248, 218, 53);
+    font-weight: 1000;
+    font-size: 20px;   
+}
+
+.title {
+    font-family: 'Confortaa', cursive ;
+    color: gold;
+    font-weight: 1000;
+    font-style: initial;
+    padding-top: 10px;
+
+}
+
+.main {
+    margin-bottom:  48px;
+    border-top: 0.4px solid;
+    border-bottom: 0.4px solid;
+}
+
+.section-1 {
+display:flex;
+flex-direction: column;
+align-items:start;
+
+
+}
+
+
+
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+gap: 20px;
+}
+
+.o-que {
+    font-family: 'Confortaa',cursive;
+    font-weight: 400;
+    font-size: x-large;
+    color: white;
+}
+
+.sub {
+    font-family: 'Confortaa',cursive;
+    font-weight: 300;
+    color: white;
+}
+
+.botao-1 {
+    background-color: gold;
+    width: 185px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgb(7, 7, 7);
+    border-radius: 25px;
+    font-family: 'Confortaa',cursive;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.guido-img {
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+    .section-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content:left;
+    }
+    
+    .para-que-usar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .uso {
+        font-family: 'Confortaa',cursive;
+        font-weight: 400;
+        font-size: x-large;
+        color: white;
+    }
+    
+    .uso-txt {
+        font-family: 'Confortaa',cursive;
+        font-weight: 300;
+        color: white;
+    }
+    
+    .botao-2 {
+        background-color: gold;
+        width: 185px;
+        height: 60px;
+        box-shadow: 4px 5px 4px rgb(7, 7, 7);
+        border-radius: 25px;
+        font-family: 'Confortaa',cursive;
+        font-weight: 300;
+        font-size: larger;
+        
+    }
+    
+    .papito-img {
+        border-radius: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    
+
+                .footer {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .logo {
+                    filter: hue-rotate(350deg);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 125px;
+                }
+
+
+
